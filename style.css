@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a:hover {
+  background-color: azure;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 6vh;
+  padding: 1rem;
+  background-color: blanchedalmond;
+}
+
+.links {
+  display: flex;
+  width: 50vw;
+  justify-content: space-between;
+  align-items: center;
+  height: 6vh;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  width: 50vw;
+  height: 6vh;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 2rem;
+}
+
+button {
+  display: flex;
+  border-radius: 0.3rem;
+  padding: 0.2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border: 1px solid grey;
+  background-color: blanchedalmond;
+}
+
+.btn-active {
+  background-color: azure;
+}
